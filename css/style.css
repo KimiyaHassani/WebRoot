@@ -1,0 +1,100 @@
+
+.row-eq-height {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.flex-container {
+    display: flex;
+    height: 400px;
+    align-items: center;
+}
+
+ul.b {
+    list-style-type: square;
+}
+
+a {
+    color: saddlebrown;
+    font-size: 20px;
+    font:bold;
+    background-color: burlywood;
+}
+.Li {
+    color: black;
+    font-size: 20px;
+    background-color: lightyellow;
+}
+.Li1 {
+    color: black;
+    font-size: 20px;
+    background-color: lightyellow;
+}
+.Li2 {
+    color: black;
+    font-size: 20px;
+    background-color: lightyellow;
+}
+.Li3 {
+    color: black;
+    font-size: 20px;
+    background-color: lightyellow;
+}
+
+
+.col-container {
+    display: table; /* Make the container element behave like a table */
+    width: 80%; /* Set full-width to expand the whole page */
+}
+
+.col {
+    display: table-cell; /* Make elements inside the container behave like table cells */
+    
+} 
+.bio{
+background-position:50px;
+background-color: aquamarine;
+
+}
+.div1 {
+    width: 1000px;
+    height: 1000px;
+    padding: 50px;
+    border: 5px solid brown;
+}
+
+
+
+@media only screen and (max-width: 576px) {
+    .col {
+        display: block;
+        width: 80%;
+
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .col {
+        display: block;
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .col {
+        display: block;
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .col {
+        display: block;
+        width: 80%;
+    }
+}
+
+
+
